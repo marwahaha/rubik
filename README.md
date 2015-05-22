@@ -1,8 +1,7 @@
 # rubik
 Rubik's cube simulator and solver, IPython/Jupyter
 
-This was a fun project! The notebook should render on Github, so click on cube.ipynb to play!
-Let me know if there are bugs or comments :-)
+This was a fun project! The notebook should render on Github, so click on [cube.ipynb](https://github.com/marwahaha/rubik/blob/master/cube.ipynb) to check it out! (Or, you can use [nbviewer](http://nbviewer.ipython.org/github/marwahaha/rubik/blob/master/cube.ipynb). You can download it from either location. Of course, forks and comments are welcome!
 
 ##Setting up
 ###Reset
@@ -35,5 +34,6 @@ RRU_Move.exec(n) #Right Face, Right-Up (sometimes called Back-Left)
 ###Solving
 ```solve()``` will (_should!_) solve the cube. This is effectively the algorithm I use when I solve Rubik's cubes.
 
-#Have fun!
+##Have fun!
+I sure enjoyed this project. Let me know if there are bugs or comments :-)
 
