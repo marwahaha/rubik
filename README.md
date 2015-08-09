@@ -17,22 +17,22 @@ RotateCC(n) #rotates cube counter-clockwise
 ```
 ##Playing with the cube
 ###Moves
-```LU_Move.exec(n)``` will execute the "Left-Up" move, n times. The list of moves is below.
+```LU_Move.run(n)``` will execute the "Left-Up" move, n times. The list of moves is below.
 ```
-LU_Move.exec(n) #Left-Up
-MU_Move.exec(n) #Middle-Up
-RU_Move.exec(n) #Right-Up
-TL_Move.exec(n) #Top-Left
-ML_Move.exec(n) #Middle-Left
-BL_Move.exec(n) #Bottom-Left
-RLU_Move.exec(n) #Right Face, Left-Up (sometimes called Front-Left)
-RMU_Move.exec(n) #Right Face, Middle-Up 
-RRU_Move.exec(n) #Right Face, Right-Up (sometimes called Back-Left)
+LU_Move.run(n) #Left-Up
+MU_Move.run(n) #Middle-Up
+RU_Move.run(n) #Right-Up
+TL_Move.run(n) #Top-Left
+ML_Move.run(n) #Middle-Left
+BL_Move.run(n) #Bottom-Left
+RLU_Move.run(n) #Right Face, Left-Up (sometimes called Front-Left)
+RMU_Move.run(n) #Right Face, Middle-Up 
+RRU_Move.run(n) #Right Face, Right-Up (sometimes called Back-Left)
 ```
 ###Mixing
 ```mixup(n)``` will make n random moves on the cube, "mixing it up"
 ###Solving
-```solve()``` will (_should!_) solve the cube. This is effectively the algorithm I use when I solve Rubik's cubes.
+```solve()``` will (_should!_) solve the cube, and print the raw number of moves. This is effectively the algorithm I use when I solve Rubik's cubes.
 
 ##Have fun!
 I sure enjoyed this project. Let me know if there are bugs or comments :-)
