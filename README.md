@@ -3,20 +3,20 @@ Rubik's cube simulator and solver, IPython/Jupyter
 
 This was a fun project! The notebook should render on Github, so click on [cube.ipynb](https://github.com/marwahaha/rubik/blob/master/cube.ipynb) to check it out! (Or, you can use [nbviewer](http://nbviewer.ipython.org/github/marwahaha/rubik/blob/master/cube.ipynb). You can download it from either location. Of course, forks and comments are welcome!
 
-##Setting up
-###Reset
+## Setting up
+### Reset
 ```position = reset_cube()``` will reset the cube to a completed position
-###Viewing
+### Viewing
 ```view_cube()``` will visualize the six sides of the cube
-###Rotating
+### Rotating
 ```RotateDown(n)``` will rotate the cube down, n times. The full list of rotations is below.
 ```
 RotateDown(n) #rotates cube down
 RotateRight(n) #rotates cube right
 RotateCC(n) #rotates cube counter-clockwise
 ```
-##Playing with the cube
-###Moves
+## Playing with the cube
+### Moves
 ```LU_Move.run(n)``` will execute the "Left-Up" move, n times. The list of moves is below.
 ```
 LU_Move.run(n) #Left-Up
@@ -29,11 +29,11 @@ RLU_Move.run(n) #Right Face, Left-Up (sometimes called Front-Left)
 RMU_Move.run(n) #Right Face, Middle-Up 
 RRU_Move.run(n) #Right Face, Right-Up (sometimes called Back-Left)
 ```
-###Mixing
+### Mixing
 ```mixup(n)``` will make n random moves on the cube, "mixing it up"
-###Solving
+### Solving
 ```solve()``` will (_should!_) solve the cube, and print the raw number of moves. This is effectively the algorithm I use when I solve Rubik's cubes.
 
-##Have fun!
+## Have fun!
 I sure enjoyed this project. Let me know if there are bugs or comments :-)
 
