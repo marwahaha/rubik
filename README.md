@@ -1,7 +1,11 @@
 # rubik
-Rubik's cube simulator and solver, IPython/Jupyter
+Rubik's cube simulator and solver in Jupyter notebook
 
-This was a fun project! The notebook should render on Github, so click on [cube.ipynb](https://github.com/marwahaha/rubik/blob/master/cube.ipynb) to check it out! (Or, you can use [nbviewer](http://nbviewer.ipython.org/github/marwahaha/rubik/blob/master/cube.ipynb). You can download it from either location. Of course, forks and comments are welcome!
+1. View the [interactive Binder notebook](https://mybinder.org/v2/gh/marwahaha/rubik/master?filepath=cube.ipynb).
+2. The notebook should render on Github: [cube.ipynb](https://github.com/marwahaha/rubik/blob/master/cube.ipynb).
+3. Use [nbviewer](http://nbviewer.ipython.org/github/marwahaha/rubik/blob/master/cube.ipynb).
+
+Of course, forks and comments are welcome!
 
 ## Setting up
 ### Reset
