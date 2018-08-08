@@ -1,4 +1,7 @@
 # rubik
+
+[![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/marwahaha/rubik/master?filepath=cube.ipynb)
+
 Rubik's cube simulator and solver in Jupyter notebook
 
 1. View the [interactive Binder notebook](https://mybinder.org/v2/gh/marwahaha/rubik/master?filepath=cube.ipynb).
